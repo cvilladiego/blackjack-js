@@ -1,0 +1,32 @@
+:root{
+    --bg-color: #0D1F2D;
+    --bg-header-color: #1d2e3d;
+}
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--bg-color);
+    color: #fff;
+    font-family: 'Roboto Slab', serif;
+}
+.header-title{
+    text-align: center;
+    background-color: var(--bg-header-color);
+    padding: 10px;
+    height: auto;
+    width: 100vw !important;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.container-cartas{
+    height: 300px;
+    
+}
+.carta{
+    position: relative;
+    width: 150px;
+    left: 100px;
+    margin-top: 5px;
+    margin-left: -70px;
+}
